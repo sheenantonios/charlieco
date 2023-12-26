@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-futura: Futura;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-81xl: 100px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #1f1e1e;
+}
