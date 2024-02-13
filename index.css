@@ -1,9 +1,4 @@
 /* Your existing CSS code here */
-{
-magin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .h1-title,
 .h1-title1 {
@@ -11,7 +6,7 @@ magin: 0;
   position: absolute;
   top: 216px;
   left: 265px;
-  font-size: 60px;
+  font-size: inherit;
   letter-spacing: -6px;
   line-height: 120px;
   text-transform: uppercase;
@@ -107,13 +102,13 @@ magin: 0;
   font-family: var(--font-futura);
 }
 
-/* Styles for tablets (700px and below) */
-@media only screen and (max-width: 500px) {
+/* Styles for tablets (768px and below) */
+@media only screen and (max-width: 768px) {
   .h1-title,
   .h1-title1 {
     top: 116px;
-    left: 65px;
-    font-size: 80px;
+    left: 165px;
+    font-size: inherit;
     letter-spacing: -6px;
     line-height: 80px;
     text-transform: uppercase;
@@ -126,7 +121,7 @@ magin: 0;
   }
 
   .h1-title1 {
-    left: 200px;
+    left: 485px;
     font-weight: 500;
     width: 290px;
   }
@@ -140,7 +135,7 @@ magin: 0;
   .h1-title1 {
     top: 80px;
     left: 80px;
-    font-size: 40px;
+    font-size: inherit;
     letter-spacing: -6px;
     line-height: 40px;
     text-transform: uppercase;
