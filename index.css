@@ -1,3 +1,5 @@
+/* Your existing CSS code here */
+
 .h1-title,
 .h1-title1 {
   margin: 0;
@@ -15,17 +17,13 @@
   width: 320px;
   height: 144px;
 }
+
 .h1-title1 {
   left: 685px;
   font-weight: 500;
   width: 490px;
 }
-.curation {
-  position: absolute;
-  left: 0;
-  width: 129px;
-  height: 29px;
-}
+
 .curation,
 .of,
 .sustainable {
@@ -39,22 +37,26 @@
   display: flex;
   align-items: center;
 }
+
 .of {
   position: absolute;
   left: 157px;
   width: 35px;
   height: 29px;
 }
+
 .sustainable {
   left: 220px;
   width: 173px;
 }
+
 .description,
 .goods,
 .sustainable {
   position: absolute;
   height: 29px;
 }
+
 .goods {
   margin: 0;
   top: 0;
@@ -68,6 +70,7 @@
   align-items: center;
   width: 93px;
 }
+
 .description {
   top: 364px;
   left: 463px;
@@ -75,18 +78,21 @@
   font-size: var(--font-size-5xl);
   font-family: var(--font-inter);
 }
+
 .background,
 .landing-page {
   background-color: var(--color-white);
   height: 1024px;
   overflow: hidden;
 }
+
 .background {
   position: absolute;
   top: 0;
   left: 0;
   width: 1440px;
 }
+
 .landing-page {
   position: relative;
   width: 100%;
@@ -96,39 +102,30 @@
   font-family: var(--font-futura);
 }
 
-/* Your existing CSS code here */
-
-.h1-title,
-.h1-title1 {
-  /* Your existing styles */
-}
-
 /* Styles for tablets (768px and below) */
 @media only screen and (max-width: 768px) {
   .h1-title,
   .h1-title1 {
-  margin: 0;
-  position: absolute;
-  top: 116px;
-  left: 165px;
-  font-size: inherit;
-  letter-spacing: -6px;
-  line-height: 80px;
-  text-transform: uppercase;
-  font-weight: 800;
-  font-family: inherit;
-  display: flex;
-  align-items: center;
-  width: 200px;
-  height: 80px;  }
-  
-  .h1-title1 {
-    /* Adjust styles for h1-title1 on tablets */
-    left: 485px;
-  font-weight: 500;
-  width: 290px;
+    top: 116px;
+    left: 165px;
+    font-size: inherit;
+    letter-spacing: -6px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 80px;
   }
-  
+
+  .h1-title1 {
+    left: 485px;
+    font-weight: 500;
+    width: 290px;
+  }
+
   /* Repeat this pattern for other elements as needed */
 }
 
@@ -136,29 +133,25 @@
 @media only screen and (max-width: 576px) {
   .h1-title,
   .h1-title1 {
- .h1-title,
-  .h1-title1 {
-  margin: 0;
-  position: absolute;
-  top: 80px;
-  left: 80px;
-  font-size: inherit;
-  letter-spacing: -6px;
-  line-height: 40px;
-  text-transform: uppercase;
-  font-weight: 800;
-  font-family: inherit;
-  display: flex;
-  align-items: center;
-  width: 100px;
-  height: 40px;  }  }
-  
-  .h1-title1 {
-    /* Adjust styles for h1-title1 on mobile */
-    left: 385px;
-  font-weight: 500;
-  width: 190px;
+    top: 80px;
+    left: 80px;
+    font-size: inherit;
+    letter-spacing: -6px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
   }
-  
+
+  .h1-title1 {
+    left: 385px;
+    font-weight: 500;
+    width: 190px;
+  }
+
   /* Repeat this pattern for other elements as needed */
 }
