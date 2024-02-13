@@ -11,7 +11,7 @@ magin: 0;
   position: absolute;
   top: 216px;
   left: 265px;
-  font-size: inherit;
+  font-size: 60px;
   letter-spacing: -6px;
   line-height: 120px;
   text-transform: uppercase;
@@ -112,8 +112,8 @@ magin: 0;
   .h1-title,
   .h1-title1 {
     top: 116px;
-    left: 165px;
-    font-size: inherit;
+    left: 65px;
+    font-size: 80px;
     letter-spacing: -6px;
     line-height: 80px;
     text-transform: uppercase;
@@ -126,7 +126,7 @@ magin: 0;
   }
 
   .h1-title1 {
-    left: 485px;
+    left: 200px;
     font-weight: 500;
     width: 290px;
   }
@@ -140,7 +140,7 @@ magin: 0;
   .h1-title1 {
     top: 80px;
     left: 80px;
-    font-size: inherit;
+    font-size: 40px;
     letter-spacing: -6px;
     line-height: 40px;
     text-transform: uppercase;
