@@ -204,10 +204,10 @@
 @media only screen and (max-width: 768px) {
   .h1-title,
   .h1-title1 {
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: var(--font-size-3xl);
+    font-size: calc(0.6 * var(--font-size-3xl)); /* 40% smaller font size */
     width: 80%;
     line-height: 1.2;
     text-align: center;
@@ -222,22 +222,22 @@
 
   .of,
   .sustainable {
-    font-size: var(--font-size-md);
+    font-size: calc(0.6 * var(--font-size-md)); /* 40% smaller font size */
   }
 
   .goods {
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     width: auto;
   }
 
   .description {
-    top: 60%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    font-size: var(--font-size-md);
+    font-size: calc(0.6 * var(--font-size-md)); /* 40% smaller font size */
   }
 }
 
@@ -245,10 +245,10 @@
 @media only screen and (max-width: 576px) {
   .h1-title,
   .h1-title1 {
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: var(--font-size-lg);
+    font-size: calc(0.6 * var(--font-size-lg)); /* 40% smaller font size */
     width: 80%;
     line-height: 1.2;
     text-align: center;
@@ -263,21 +263,21 @@
 
   .of,
   .sustainable {
-    font-size: var(--font-size-sm);
+    font-size: calc(0.6 * var(--font-size-sm)); /* 40% smaller font size */
   }
 
   .goods {
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
     width: auto;
   }
 
   .description {
-    top: 60%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    font-size: var(--font-size-sm); /* Adjusted font size for description */
+    font-size: calc(0.6 * var(--font-size-sm)); /* 40% smaller font size */
   }
 }
