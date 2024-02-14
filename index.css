@@ -95,7 +95,6 @@
   color: var(--color-gray);
   font-family: var(--font-futura);
 }
-
 /* Your existing CSS code here */
 
 .h1-title,
@@ -114,6 +113,7 @@
   align-items: center;
   width: 320px;
   height: 144px;
+  white-space: nowrap; /* Prevent h1 text from wrapping */
 }
 
 .h1-title1 {
@@ -207,10 +207,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: var(--font-size-4xl);
+    font-size: var(--font-size-3xl);
     width: 80%;
     line-height: 1.2;
     text-align: center;
+    white-space: normal; /* Allow h1 text to wrap */
   }
 
   .h1-title1 {
@@ -236,7 +237,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
   }
 }
 
@@ -247,10 +248,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-lg);
     width: 80%;
     line-height: 1.2;
     text-align: center;
+    white-space: normal; /* Allow h1 text to wrap */
   }
 
   .h1-title1 {
@@ -276,6 +278,6 @@
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    font-size: var(--font-size-md);
+    font-size: var(--font-size-sm); /* Adjusted font size for description */
   }
 }
