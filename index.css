@@ -204,54 +204,39 @@
 @media only screen and (max-width: 768px) {
   .h1-title,
   .h1-title1 {
-    top: 116px;
-    left: 165px;
-    font-size: 20px;
-    letter-spacing: -6px;
-    line-height: 80px;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-family: inherit;
-    display: flex;
-    align-items: center;
-    width: 200px;
-    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--font-size-4xl);
+    width: 80%;
+    line-height: 1.2;
+    text-align: center;
   }
 
   .h1-title1 {
-    left: 485px;
+    left: 50%;
     font-weight: 500;
-    width: 290px;
+    width: 80%;
   }
 
-  .of {
-    left: 60px;
-    width: 30px;
-  }
-
+  .of,
   .sustainable {
-    left: 140px;
-    width: 150px;
+    font-size: var(--font-size-md);
   }
 
   .goods {
-    top: 0;
-    left: 300px;
-    width: 70px;
-    font-size: inherit;
-    line-height: 24.86px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: inherit;
-    display: flex;
-    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
   }
 
   .description {
-    top: 300px;
-    left: 320px;
-    width: 350px;
-    font-size: var(--font-size-4xl);
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    font-size: var(--font-size-lg);
   }
 }
 
@@ -259,54 +244,38 @@
 @media only screen and (max-width: 576px) {
   .h1-title,
   .h1-title1 {
-    top: 80px;
-    left: 80px;
-    font-size: inherit;
-    letter-spacing: -6px;
-    line-height: 40px;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-family: inherit;
-    display: flex;
-    align-items: center;
-    width: 100px;
-    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--font-size-3xl);
+    width: 80%;
+    line-height: 1.2;
+    text-align: center;
   }
 
   .h1-title1 {
-    left: 385px;
+    left: 50%;
     font-weight: 500;
-    width: 190px;
+    width: 80%;
   }
 
-  .of {
-    left: 20px;
-    width: 30px;
-  }
-
+  .of,
   .sustainable {
-    left: 80px;
-    width: 120px;
+    font-size: var(--font-size-sm);
   }
 
   .goods {
-    top: 0;
-    left: 150px;
-    width: 50px;
-    font-size: inherit;
-    line-height: 24.86px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: inherit;
-    display: flex;
-    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
   }
 
   .description {
-    top: 250px;
-    left: 270px;
-    width: 250px;
-    font-size: var(--font-size-3xl);
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    font-size: var(--font-size-md);
   }
 }
-
